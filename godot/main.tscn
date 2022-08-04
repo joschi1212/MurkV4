@@ -1,9 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://nt85ukfvmy8x"]
+[gd_scene load_steps=4 format=3 uid="uid://nt85ukfvmy8x"]
 
 [ext_resource type="Texture2D" uid="uid://0umcb2rthyur" path="res://logo.png" id="1_mlluw"]
+[ext_resource type="Script" path="res://Logo.gd" id="2_of8s7"]
+[ext_resource type="PackedScene" uid="uid://dpqylv3udnmwt" path="res://tile_map.tscn" id="2_pfpcj"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Logo" type="Sprite2D" parent="."]
 position = Vector2(410, 204)
 texture = ExtResource("1_mlluw")
+script = ExtResource("2_of8s7")
+
+[node name="TileMap" parent="." instance=ExtResource("2_pfpcj")]

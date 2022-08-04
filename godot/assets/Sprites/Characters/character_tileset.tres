@@ -1,0 +1,46 @@
+[gd_resource type="TileSet" load_steps=7 format=2]
+
+[sub_resource type="StreamTexture" id=1]
+load_path = "res://.import/oldman.png-d6ba5f483b6c230d9a11ba613ef0251c.stex"
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = SubResource( 1 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = SubResource( 1 )
+region = Rect2( 16, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = SubResource( 1 )
+region = Rect2( 32, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = SubResource( 1 )
+region = Rect2( 48, 0, 16, 16 )
+
+[sub_resource type="AnimatedTexture" id=6]
+frames = 4
+frame_0/texture = SubResource( 2 )
+frame_1/texture = SubResource( 3 )
+frame_1/delay_sec = 0.0
+frame_2/texture = SubResource( 4 )
+frame_2/delay_sec = 0.0
+frame_3/texture = SubResource( 5 )
+frame_3/delay_sec = 0.0
+
+[resource]
+0/name = "villager_beard.tres 0"
+0/texture = SubResource( 6 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 16, 16 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0

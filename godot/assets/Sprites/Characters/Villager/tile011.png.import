@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ceymk8oqdm5ti"
-path="res://.godot/imported/full_15.png-2b5d210d3c0e5ffe7af144264955624f.ctex"
+uid="uid://bsvr7bixe3g7k"
+path="res://.godot/imported/tile011.png-b5f257365e5235f062d1fa4c948515fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/full_15.png"
-dest_files=["res://.godot/imported/full_15.png-2b5d210d3c0e5ffe7af144264955624f.ctex"]
+source_file="res://assets/Sprites/Characters/Villager/tile011.png"
+dest_files=["res://.godot/imported/tile011.png-b5f257365e5235f062d1fa4c948515fd.ctex"]
 
 [params]
 
