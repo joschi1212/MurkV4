@@ -1,3 +1,5 @@
+# Game-specific ignores
+godot/assets/
 
 # Godot-specific ignores
 .import/
