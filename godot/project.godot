@@ -8,9 +8,19 @@
 
 config_version=5
 
+_global_script_classes=[{
+"base": "AnimatedTexture",
+"class": &"AnimatedTextureSheet",
+"language": &"GDScript",
+"path": "res://src/utility/AnimatedTextureSheet4.0.gd"
+}]
+_global_script_class_icons={
+"AnimatedTextureSheet": ""
+}
+
 [application]
 
-config/name="Game"
+config/name="MurkV4"
 config/description="A game made in godot using the PanLab boilerplate."
 run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.0")
@@ -24,6 +34,7 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false

@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://crgqmgpsjngpo"]
+
+[ext_resource type="Texture2D" uid="uid://dw44huod2yl4r" path="res://assets/Terrain/Compilation-Static-River-Animated.png" id="1_6d24c"]
+
+[resource]
+atlas = ExtResource("1_6d24c")
+region = Rect2(384, 16, 128, 448)

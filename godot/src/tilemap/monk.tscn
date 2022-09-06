@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ufweyjlu48hn"]
+
+[ext_resource type="Texture2D" uid="uid://cweh1scuxlbg1" path="res://assets/MonkAttack(Frame 2).png" id="1_65mxh"]
+
+[node name="monk" type="Sprite2D"]
+texture = ExtResource("1_65mxh")

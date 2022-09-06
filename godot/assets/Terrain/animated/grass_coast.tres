@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://biuftja8flihw"]
+
+[ext_resource type="Texture2D" uid="uid://cef5lqk8gt735" path="res://assets/Terrain/Compilatiom-Coast-Animated.png" id="1_kt4ms"]
+
+[resource]
+atlas = ExtResource("1_kt4ms")
+region = Rect2(0, 16, 128, 320)
